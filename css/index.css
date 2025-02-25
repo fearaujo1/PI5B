@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/pexels-max-fischer-5212329.jpg);
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 30%; 
+    z-index: -1;
+}
+
+.coluna{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+
+.boxLoguin{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 100vh;
+    position: absolute;
+    width: 70vh;
+    margin: 0;
+
+
+
+    text-align: center;
+    border: 0;
+    color: rgb(62, 62, 62);
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 320px;
+    margin-left: 50px;
+
+
+}
+
+h1{
+    text-align: center;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 3px;
+
+}
+
+p{
+    margin-top:3px;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    margin-top: 30px;
+
+}
+
+label{
+    
+    margin-bottom: 1px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+input{
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #882121;
+}
