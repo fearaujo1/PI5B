@@ -8,6 +8,6 @@ document.getElementById("redefinir-senha").addEventListener("click", function(){
 
 const handleSubmit = (event) => {
     event.preventDefault(); 
-    alert('cu')
+    window.location.href = "./telaInicial.html"
 }
 document.querySelector('button').addEventListener('click', handleSubmit);
