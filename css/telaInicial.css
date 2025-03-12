@@ -2,20 +2,47 @@ body{
     margin: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
 
 }
 
 .cabecalho{
     margin: 0;
-    position: absolute; 
+    overflow: hidden;
+    contain: content;
+    position: fixed; 
+    gap: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #ff0000;
     width: 100%;
-    height: 12vh;
-    
+    height: 12vh; 
+}
+.cabecalhoMenu{
+    margin: 0;
+    overflow: hidden;
+    contain: content;
+    position: absolute; 
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 12vh; 
+}
+
+.cabecalhoFoto{
+    margin: 0;
+    overflow: hidden;
+    contain: content;
+    position: absolute; 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 12vh; 
+}
+
+
+.imgMenu{
+    scale: 50%;
+    filter: invert(100%) sepia(100%) hue-rotate(180deg);
 }
 
 h1{
@@ -23,10 +50,6 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
     font-weight: 600;
-
-
 }
 
-img{
-    scale: 10%;
-}
+
