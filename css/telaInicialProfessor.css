@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+}
+
+.cabecalho {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os itens */
+    background-color: #ff0000;
+    width: 100%;
+    height: 12vh;
+    padding: 0 20px;
+}
+
+
+.imgMenu {
+    width: 40px; 
+    height: 40px;
+    filter: invert(100%) sepia(100%) hue-rotate(180deg);
+    object-fit: contain;
+}
+
+.imgTitulo {
+    width: 200px; 
+    height: 200px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+
+.imgUsuario {
+    width: 50px; 
+    height: 50px;
+    margin-right: 35px;
+    object-fit: contain; 
+}
