@@ -5,24 +5,36 @@ body {
     overflow-x:hidden;
 }
 
+/*==========CABEÇALHO==========*/
 .cabecalho {
-    margin: 0;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Distribui os itens */
+    justify-content: space-between; 
     background-color: #ff0000;
     width: 100%;
     height: 12vh;
     padding: 0 20px;
+    position: fixed;
+    z-index: 1;
 }
 
 
 .imgMenu {
     width: 40px; 
     height: 40px;
+    transition: transform 0.2s ease-in-out;
     filter: invert(100%) sepia(100%) hue-rotate(180deg);
     object-fit: contain;
+    cursor: pointer;
+}
+
+.imgRotate {
+    transform: rotate(180deg);
+}
+
+.imgMenu:hover{
+    filter: invert(20%) sepia(100%) hue-rotate(180deg);
 }
 
 .imgTitulo {
@@ -36,5 +48,68 @@ body {
     width: 50px; 
     height: 50px;
     margin-right: 35px;
-    object-fit: contain; 
+    object-fit: contain;
+    cursor: pointer;
 }
+/*==========CABEÇALHO==========*/
+
+.boxMenu{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #be0000;
+    height: 100vh;  
+    width: 25vw;    
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-in-out;
+    position: fixed;
+    top: 77px;  
+    left: 0;
+    overflow-y: auto; 
+}
+.boxMenuAnimacao {
+    transform: translateX(0);
+}
+
+
+.buttomHome{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #be0000;
+    padding-left: 30px;
+    width: 100%;
+    height: 8%;
+    box-sizing: border-box;
+}
+
+.buttomHome:hover{
+    background-color: #ff0000;
+}
+
+.imgHome {
+    width: 40px; 
+    height: 50%;
+    transition: transform 0.2s ease-in-out;
+    filter: invert(100%) sepia(100%) hue-rotate(180deg);
+    object-fit: contain;
+    cursor: pointer;
+    margin-top: 18px;
+    padding-right: 10px;
+}
+
+.textoHome{
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: 700;
+    font-size: medium;
+    width: 40px; 
+    height: 100%;
+    margin-top: 25px;
+
+
+}
+
