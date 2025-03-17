@@ -147,8 +147,26 @@ body {
     border: 0;
     color: #ff0000;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: xx-small;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #fffb00;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    position: sticky;
+    z-index: 0;
+
+    border: 0;
+    color: #ff0000;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: x-small;
+    font-size: 15px;
 }
 
 .linha{
@@ -169,6 +187,14 @@ body {
     font-size: small;
     margin-left: 20px;
 
+}
+
+input{
+    border: none;
+    border-radius: 30px;
+    width: 40px;
+    margin-left: 10vh;
+    text-align: center;
 }
 
 
