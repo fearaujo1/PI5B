@@ -152,6 +152,17 @@ header{
     font-size: small;
     font-weight: 700;
     font-size: 10px;
+    overflow: hidden;
+}
+
+.boxCarrossel{
+    background-color: #ff0000;
+    overflow: hidden;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{

@@ -12,7 +12,7 @@ document.getElementById("buttomNotas").addEventListener("click", function(){
     window.location.href = "./registroFreq.html"
  });
 
- document.getElementById("imagemUsuario").addEventListener("click", function(){
+ document.getElementById("imagemUsuarios").addEventListener("click", function(){
     window.location.href = "./telaUsuario.html"
  });
 
