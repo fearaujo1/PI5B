@@ -250,6 +250,7 @@ section{
     font-size: small;
     font-weight: 700;
     font-size: 7px;
+    overflow: hidden;
 }
 
 
